@@ -1,0 +1,11 @@
+@import "~rfs/scss";
+
+h1.foo {
+    @include font-size(4rem);
+}
+h2.foo {
+    @include font-size(3rem);
+}
+p.foo {
+    @include font-size(2rem);
+}
